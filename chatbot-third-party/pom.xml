@@ -14,6 +14,7 @@
 	
 	<modules>
 		<module>chatbot-third-party-irc</module>
+                <module>chatbot-third-party-xmpp</module>
 	</modules>
 	
 	<dependencies>
