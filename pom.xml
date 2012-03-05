@@ -14,6 +14,7 @@
 		<module>chatbot-client-api</module>
 		<module>chatbot-application</module>
 		<module>chatbot-third-party</module>
+		<module>chatbot-example-bots</module>
 	</modules>
 	
     <build>
@@ -64,6 +65,16 @@
 			<dependency>
 				<groupId>chatbot</groupId>
 				<artifactId>chatbot-client-api</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>chatbot</groupId>
+				<artifactId>chatbot-application</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>chatbot</groupId>
+				<artifactId>chatbot-third-party-xmpp</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<!-- Test Dependencies -->
